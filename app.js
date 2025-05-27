@@ -13,7 +13,7 @@ camera.position.z = 13;
 const scene = new THREE.Scene();
 let pancake;
 const loader = new GLTFLoader();
-loader.load('/pancake.glb',
+loader.load('./models/pancake.glb',
     function (gltf) {
         pancake = gltf.scene;
         scene.add(pancake);
