@@ -1,0 +1,218 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: 'Vintage';
+    src: url('./fonts/vintage.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Heroeau';
+    src: url('./fonts/heroeau.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TimesNewRomanCustom';
+    src: url('./fonts/times-new-roman.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'GreaterCreation';
+    src: url('./fonts/greater-creation.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Common section styles */
+  .section {
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column {
+    /* background-color: #FAF0DC; your custom color */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Unique styles for each section */
+  .hero h1 {
+    background-color: #27592D;
+    color: #FAF0DC;
+    font-family: 'GreaterCreation', sans-serif;
+    font-size: 170px;
+    margin-bottom: 450px;
+  }
+
+  .hero {
+    background-color: #27592D;
+    color: #FAF0DC;
+    font-family: 'GreaterCreation', sans-serif;
+    font-size: 60px;
+  }
+  
+  .about h2 {
+    color: #27592D;
+    font-family: 'GreaterCreation', serif;
+    padding: 70px 70px;
+    font-size: 100px;
+    margin-top: -100px;
+  }
+  
+  .about {
+    color: #ffffff;
+    display: grid;
+    position: relative;
+    font-family: 'TimesNewRomanCustom', serif;
+    background-image: url('images/bestsky.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+    font-size: xx-large;
+    grid-template-areas:
+      ". heading"
+      "text .";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+  }
+  
+  .about-heading {
+    grid-area: heading;
+    align-self: start;
+    justify-self: end;
+    /* padding: 20px; */
+  }
+
+  .about-text {
+    grid-area: text;
+    align-self: end;
+    justify-self: start;
+    /* margin-top: 360px; */
+  }
+
+  .why h1 {
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 70px;
+    font-family: 'GreaterCreation';
+  }
+
+  .why h2 {
+    margin-top: -30px;
+    /* position: absolute; */
+    z-index: 1;
+    margin-bottom: 35px;
+    color: #FAF0DC;
+    font-size: 75px;
+    font-family: 'TimesNewRomanCondensed';
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .why {
+    background-color: #FAF0DC;
+    background-image: url('./images/cloudbg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 50px;
+    color: #333;
+    font-size: 40px;
+    justify-content: right;
+    align-items: right;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent */
+    padding: 60px 60px 40px;
+    border-radius: 30px;
+    height: 70vh;
+    position: relative;
+    color: #fff;
+    font-family: 'TimesNewRomanCustom', serif;
+  }
+  
+  .card-img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: auto;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #container3D {
+    position: fixed;
+    inset: 0;
+    /* background-color: red; */
+    z-index: 100;
+    pointer-events: none;
+  }
+
+  .theme h2 {
+    background-color: #FAF0DC;
+    color: #27592D;
+    font-size: 100px;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 300px;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+
+  .theme {
+    background-color: #FAF0DC;
+    color: #27592D;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+
+  .theme p {
+    max-width: 600px; /* Optional: controls paragraph width */
+    margin-left: auto; /* Pushes it to the right if needed */
+    margin-right: 70px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    /* padding: 80px; */
+  }
