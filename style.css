@@ -60,7 +60,7 @@
     color: #FAF0DC;
     font-family: 'GreaterCreation', sans-serif;
     font-size: 170px;
-    margin-bottom: 450px;
+    margin-bottom: 320px;
   }
 
   .hero {
@@ -121,7 +121,7 @@
     margin-top: -30px;
     /* position: absolute; */
     z-index: 1;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     color: #FAF0DC;
     font-size: 75px;
     font-family: 'TimesNewRomanCondensed';
@@ -136,7 +136,7 @@
     background-position: center;
     padding: 60px 50px;
     color: #333;
-    font-size: 40px;
+    font-size: 35px;
     justify-content: right;
     align-items: right;
     height: 100vh;
@@ -194,7 +194,7 @@
     font-size: 100px;
     text-align: right;
     padding: 20px;
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
     margin-right: 70px;
     margin-left: 70px;
   }

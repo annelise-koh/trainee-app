@@ -54,12 +54,12 @@ let arrPositionModel = [
     },
     {
         id: 'section-why',
-        position: {x: 1.1, y: -0.7, z: 3.2},
+        position: {x: 1.4, y: -0.7, z: 3.2},
         rotation: {x: 0.4, y: 2.7, z: 0}
     },
     {
         id: 'section-theme',
-        position: {x: -0.24, y: -0.1, z: 9.6},
+        position: {x: -0.24, y: -0.1, z: 10},
         rotation: {x: 1.3, y: 10.7, z: 1}
     },
 ];
