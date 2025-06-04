@@ -60,7 +60,7 @@
     color: #FAF0DC;
     font-family: 'GreaterCreation', sans-serif;
     font-size: 170px;
-    margin-bottom: 320px;
+    margin-bottom: 440px;
   }
 
   .hero {
@@ -121,7 +121,7 @@
     margin-top: -30px;
     /* position: absolute; */
     z-index: 1;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     color: #FAF0DC;
     font-size: 75px;
     font-family: 'TimesNewRomanCondensed';
@@ -136,7 +136,7 @@
     background-position: center;
     padding: 60px 50px;
     color: #333;
-    font-size: 35px;
+    font-size: 38px;
     justify-content: right;
     align-items: right;
     height: 100vh;
@@ -194,13 +194,14 @@
     font-size: 100px;
     text-align: right;
     padding: 20px;
-    /* margin-bottom: 300px; */
+    margin-bottom: 200px;
     margin-right: 70px;
     margin-left: 70px;
   }
 
   .theme {
     background-color: #FAF0DC;
+    height: 100vh;
     color: #27592D;
     text-align: right;
     display: flex;
